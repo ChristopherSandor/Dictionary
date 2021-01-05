@@ -1,0 +1,20 @@
+.voc {
+  color: blue;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.def {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.pron {
+  font-style: italic;
+}
+hr {
+  height: 2px;
+  border-width: 2px;
+  color: black;
+  background-color: black;
+}

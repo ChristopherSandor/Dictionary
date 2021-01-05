@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link 
+    rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" 
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css" />
+    <title>WORDSSS!</title>
+  </head>
+  <body>
+    <!-- INSTRUCTIONS -->
+    <!-- Use this HTML file as the structure of your dictionary.
+    Create a CSS file and link it to the HTML document.
+    Add styles to the CSS document to style the different HTML elements.
+    You can use https://www.w3schools.com/css/css_intro.asp
+    to help you get the syntax correct!
+    -->
+    <a
+      href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstleyVEVO"
+      target="_blank"
+      ><h1>CJ's dictionary</h1>
+    </a>
+    <hr />
+    <!-- FIRST WORD -->
+    <p class="voc">CSS</p>
+    <!-- PRONUNCIATION -->
+    <p class="pron">abbreviation - for Cascading Style Sheet</p>
+    <!-- DEFINITION -->
+    <p class="def">
+      CSS describes how HTML elements are to be displayed on screen, paper, or
+      in other media CSS saves a lot of work. It can control the layout of
+      multiple web pages all at once External stylesheets are stored in CSS
+      files
+    </p>
+    <hr />
+
+    <!-- SECOND WORD -->
+    <p class="voc">CSS Selectors</p>
+    <!-- PRONUNCIATION -->
+    <p class="pron">/ (sɪˈlɛktə) /</p>
+    <!-- DEFINITION -->
+    <p class="def">
+      CSS selectors are used to "find" (or select) the HTML elements you want to
+      style. <br /><br />
+      We can divide CSS selectors into five categories:
+      <br /><br />
+      Simple selectors (select elements based on name, id, class)
+      <br /><br />
+      Combinator selectors (select elements based on a specific relationship
+      between them)
+      <br /><br />
+      Pseudo-class selectors (select elements based on a certain state)
+      <br /><br />
+      Pseudo-elements selectors (select and style a part of an element)
+      <br /><br />
+      Attribute selectors (select elements based on an attribute or attribute
+      value)
+    </p>
+    <hr />
+
+    <!-- THIRD WORD -->
+    <p class="voc">Property</p>
+    <!-- PRONUNCIATION -->
+    <p class="pron">[ prop-er-tee ]</p>
+    <!-- DEFINITION -->
+    <p class="def">
+      CSS properties specify what to style of the targeted HTML elements.For
+      example, the color, font-size, font-family, etc.
+    </p>
+    <hr />
+
+    <!-- FOURTH WORD -->
+    <p class="voc">Value</p>
+    <!-- PRONUNCIATION -->
+    <p class="pron">[ val-yoo ]</p>
+    <!-- DEFINITION -->
+    <p class="def">
+      What the property is equal to. (I couldn't find a definition).
+    </p>
+    <hr />
+
+    <!-- FIFTH WORD -->
+    <p class="voc">Specificity</p>
+    <!-- PRONUNCIATION -->
+    <p class="pron">[ spes-uh-fis-i-tee ]</p>
+    <!-- DEFINITION -->
+    <p class="def">
+      If there are two or more conflicting CSS rules that point to the same
+      element, the browser follows some rules to determine which one is most
+      specific and therefore wins out. <br /><br />
+      Every selector has its place in the specificity hierarchy. There are four
+      categories which define the specificity level of a selector:
+      <br /><br />
+      Inline styles - An inline style is attached directly to the element to be
+      styled.
+      <br /><br />
+      IDs - An ID is a unique identifier for the page elements, such as #navbar.
+      <br /><br />
+      Classes, attributes and pseudo-classes - This category includes .classes,
+      [attributes] and pseudo-classes such as :hover, :focus etc.
+      <br /><br />
+      Elements and pseudo-elements - This category includes element names and
+      pseudo-elements, such as h1, div, :before and :after.
+    </p>
+    <hr />
+
+    <!-- SIXTH WORD -->
+    <p class="voc">class</p>
+    <!-- PRONUNCIATION -->
+    <p class="pron">[ klas, klahs ]</p>
+    <!-- DEFINITION -->
+    <p class="def">
+      The class attribute is often used to point to a class name in a style
+      sheet. It can also be used by a JavaScript to access and manipulate
+      elements with the specific class name. <br /><br />
+      The CSS syntax for class is: write a period (.) character, followed by a
+      class name. Then, define the CSS properties within curly braces {}
+      <br /><br />
+      For Example:
+      <br /><br />
+      .className
+      <br />{ <br />
+      &emsp; font-size:12px; <br />}
+    </p>
+    <hr />
+
+    <!-- SEVENTH WORD -->
+    <p class="voc">id</p>
+    <!-- PRONUNCIATION -->
+    <p class="pron">[ ahy-dee ]</p>
+    <!-- DEFINITION -->
+    <p class="def">
+      The id attribute specifies a unique id for an HTML element. The value of
+      the id attribute must be unique within the HTML document. The id attribute
+      is used to point to a specific style declaration in a style sheet.
+      <br /><br />
+      The CSS syntax for id is: write a hash character (#), followed by an id
+      name. Then, define the CSS properties within curly braces {}
+      <br /><br />
+      For Example:
+      <br /><br />
+      #idName
+      <br />{ <br />
+      &emsp; font-size:12px; <br />}
+
+      <p>
+        <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Toggle first element</a>
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Toggle second element</button>
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both elements</button>
+      </p>
+      <div class="row">
+        <div class="col">
+          <div class="collapse multi-collapse" id="multiCollapseExample1">
+            <div class="card card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="collapse multi-collapse" id="multiCollapseExample2">
+            <div class="card card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+    </p>
+    <script 
+    src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
+    crossorigin="anonymous">
+    </script>
+
+<script 
+src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" 
+crossorigin="anonymous">
+</script>
+
+  </body>
+</html>
